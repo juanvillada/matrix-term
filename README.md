@@ -17,6 +17,18 @@ A terminal-based Matrix-style digital rain animation written in Python using the
 - Python 3.6+
 - curses library (included with Python on most platforms)
 
+## Docker Usage
+
+You can run the Matrix animation using Docker:
+
+```bash
+# Pull the image
+docker pull ghcr.io/juanvillada/matrix-term:latest
+
+# Run the animation
+docker run -it --rm ghcr.io/juanvillada/matrix-term
+```
+
 ## Installation
 
 Clone the repository:
